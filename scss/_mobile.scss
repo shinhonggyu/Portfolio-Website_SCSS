@@ -45,6 +45,14 @@
       height: 200px;
     }
   }
+
+  .about__majors {
+    flex-direction: column;
+  }
+
+  .major {
+    margin-bottom: 38px;
+  }
 }
 
 // Smartphones
