@@ -214,6 +214,46 @@ main#work {
       .boxes div:hover span {
         color: #000; }
 
+main#skills {
+  max-width: 1200px;
+  margin: auto; }
+  main#skills .skillset {
+    display: flex;
+    background-color: lightgray;
+    color: #fff; }
+    main#skills .skillset h3 {
+      text-align: center; }
+    main#skills .skillset__left {
+      flex-basis: 60%;
+      background-color: darkgray;
+      padding: 20px 40px; }
+      main#skills .skillset__left .skill {
+        margin-bottom: 8px; }
+      main#skills .skillset__left .skill__bar {
+        width: 100%;
+        height: 3px;
+        background-color: grey; }
+      main#skills .skillset__left .skill__value {
+        height: 3px;
+        background-color: #eece1a; }
+      main#skills .skillset__left .skill__description {
+        display: flex;
+        justify-content: space-between; }
+    main#skills .skillset__right {
+      flex-basis: 40%;
+      text-align: center; }
+      main#skills .skillset__right ul {
+        padding-left: 0; }
+      main#skills .skillset__right .tools {
+        background-color: gray;
+        padding: 20px; }
+        main#skills .skillset__right .tools__list {
+          list-style: none; }
+      main#skills .skillset__right .etc {
+        padding: 20px; }
+        main#skills .skillset__right .etc__list {
+          list-style: none; }
+
 @media screen and (max-width: 768px) {
   main {
     text-align: center;
@@ -243,7 +283,9 @@ main#work {
   .about__majors {
     flex-direction: column; }
   .major {
-    margin-bottom: 38px; } }
+    margin-bottom: 38px; }
+  .skillset {
+    flex-direction: column; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
